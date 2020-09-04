@@ -1,108 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- title starts here -->
+    <title>Anthony Bergen | Software Engineer</title>
+    <!-- title ends here -->
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Enter your description here">
-  <link rel="icon" type="image/png" href="../images/favicon/favicon-32x32.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <!-- title starts here -->
-  <title>Anthony Bergen | Software Engineer</title>
-  <!-- title ends here -->
-</head>
+  <body>
+    <header>
+      <!-- navbar starts here -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://adbergen.github.io/"
+            ><strong>Anthony Bergen</strong></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <!-- navbar links start here -->
+              <a class="nav-item nav-link ml-auto" href="../../index.html"
+                >About</a
+              >
+              <a class="nav-item nav-link ml-auto" href="portfolio.html"
+                >Portfolio</a
+              >
+              <a
+                class="nav-item nav-link ml-auto"
+                href="https://drive.google.com/file/d/1WuMCwg68WfNHswutbGghRH2Df2c-ySr3/view?usp=sharing"
+                target="_blank"
+                >Resume</a
+              >
+              <a class="nav-item nav-link ml-auto active" href="contact.html"
+                >Contact</a
+              >
+              <a
+                class="nav-item nav-link ml-auto"
+                id="github-mark"
+                href="https://github.com/adbergen"
+                target="_blank"
+              >
+                <img
+                  class="img-fluid"
+                  src="../images/github-mark/github-mark-32px.png"
+                  alt="github mark icon"
+                />
+              </a>
+              <a
+                class="nav-item nav-link ml-auto"
+                id="linkedin"
+                href="https://linkedin.com/in/anthonybergen"
+                target="_blank"
+              >
+                <img
+                  class="img-fluid"
+                  src="../images/linkedin/linkedin.png"
+                  alt="linkedin icon"
+                />
+              </a>
 
-<body>
-  <header>
-
-    <!-- navbar starts here -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="https://adbergen.github.io/"><strong>Anthony
-            Bergen</strong></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <!-- navbar links start here -->
-            <a class="nav-item nav-link ml-auto" href="../../index.html">About</a>
-            <a class="nav-item nav-link ml-auto" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link ml-auto active" href="contact.html">Contact</a>
-            <a class="nav-item nav-link ml-auto" id="github-mark" href="https://github.com/adbergen" target="_blank">
-              <img class="img-fluid" src="../images/github-mark/github-mark-32px.png" alt="github mark icon">
-            </a>
-            <a class="nav-item nav-link ml-auto" id="linkedin" href="https://linkedin.com/in/anthonybergen"
-              target="_blank">
-              <img class="img-fluid" src="../images/linkedin/linkedin.png" alt="linkedin icon">
-            </a>
-
-            <!-- navbar links end here -->
+              <!-- navbar links end here -->
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-    <!-- navbar ends here -->
+      </nav>
+      <!-- navbar ends here -->
+    </header>
 
-  </header>
-
-  <!-- main/contact form starts here -->
-  <main class="container-fluid text-center mt-3 mb-5">
-    <div class="row pb-5">
-      <div class="col-sm-4">
-      </div>
-      <div class="col-sm-4">
-        <div class="card border border-dark">
-          <!-- form starts here -->
-          <form class="p-3">
-            <h2>Contact</h2>
-            <hr>
-            <div class="form-group">
-              <div class="row pb-3">
-                <div class="col">
-                  <label for="firstName">First Name</label>
-                  <input type="text" class="form-control" id="firstName" placeholder="First name">
-                </div>
-                <div class="col">
-                  <label for="lastName">Last Name</label>
-                  <input type="text" class="form-control" id="lastName" placeholder="Last name">
-                </div>
+    <!-- main/contact form starts here -->
+    <main class="container-fluid text-center mt-3 mb-5">
+      <div class="row pb-5">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <!-- article starts here -->
+          <article class="card border border-dark">
+            <h2 class="card-title pt-4">Let's Connect</h2>
+            <hr />
+            <img
+              class="img-fluid rounded-circle p-3 mx-auto"
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQHP4f3U4McQZw/profile-displayphoto-shrink_200_200/0?e=1600905600&v=beta&t=97a49gcaRYvp-vtT2CuWY1fF0eI5KSPFbIOoDlyoC4k"
+              alt="image of Anthony Bergen"
+            />
+            <div class="card-body">
+              <div class="card-text">
+                Anthony Bergen is actively looking for new opportunities. You
+                may contact with any inquiries using the contact information
+                found below:
               </div>
-              <label for="emailAddress">Email address</label>
-              <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+              <br />
+              <div class="card-text">
+                <strong>Phone Number:</strong> 732-610-0542
+              </div>
+              <div class="card-text p-2">
+                <strong>Email Address:</strong>
+                <a href="#">anthonydbergen@gmail.com</a>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <input class="btn btn-primary" type="submit" value="Submit">
-          </form>
-          <!-- form ends here -->
+          </article>
+          <!-- article ends here -->
         </div>
+        <div class="col-sm-4"></div>
       </div>
-      <div class="col-sm-4">
+    </main>
+    <!-- main/contact form ends here -->
+
+    <!-- footer starts here -->
+    <footer class="page-footer footer-expand fixed-bottom">
+      <div class="text-center py-2 bg-primary">
+        <strong>| Created by Anthony Bergen |</strong>
       </div>
-    </div>
-  </main>
-  <!-- main/contact form ends here -->
+    </footer>
+    <!-- footer ends here -->
 
-  <!-- footer starts here -->
-  <footer class="page-footer footer-expand fixed-bottom">
-    <div class="text-center py-2 bg-primary"><strong>| Created by Anthony Bergen |</strong>
-    </div>
-  </footer>
-  <!-- footer ends here -->
-
-  <!-- scripts start here -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <!-- scripts end here -->
-
-</body>
-
+    <!-- scripts start here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- scripts end here -->
+  </body>
 </html>

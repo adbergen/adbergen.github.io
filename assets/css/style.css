@@ -1,40 +1,40 @@
+nav {
+  background-color: black;
+}
 #github-mark {
   margin: -4px 1px;
 }
 
 #github-mark:hover {
- opacity: 0.7
+  opacity: 0.7;
 }
 
 #linkedin {
- margin: -3px 0px;
+  margin: -3px 0px;
 }
 
 #linkedin:hover {
-opacity: 0.7
+  opacity: 0.7;
 }
 
 body {
- background-color: rgb(65, 65, 65);
+  background-color: rgb(141, 138, 138);
 }
 
 .card {
- background-color: #a4d4f5
+  background-color: white;
 }
 
 hr {
- display: block;
- height: 2px;
- border: 0;
- border-top: 1px solid black;
- margin: 1em 0;
- padding: 0;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
 }
 
-footer div {
- color: black;
-}
-
-footer a {
- color: white;
+footer {
+  background-color: black;
+  color: white;
 }
